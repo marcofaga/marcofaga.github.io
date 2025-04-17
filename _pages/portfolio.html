@@ -5,10 +5,75 @@ permalink: /portfolio/
 author_profile: true
 ---
 
-{% include base_path %}
+<head>
+  <meta charset="UTF-8">
+  <style>
+    .tag {
+      display: inline-block;
+      background-color: #f0f3ff; /* azul claro de fundo */
+      color: #0044ff;            /* azul escuro no texto */
+      padding: 6px 12px;
+      border-radius: 20px;
+      /*font-family: sans-serif;*/
+      font-size: 12px;
+      margin-right: 8px;
+      margin-bottom:5px;
+      text-decoration: none;
+    }
+
+    .title {
+      font-size: 18px;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+
+    .short {
+      font-size: 15px;
+      margin-bottom:30px;
+      line-height: 1.8;
+    }
+
+    a {
+      color: #1f3a55;
+    }
+  </style>
+</head>
 
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<hr style="border: none; height: 1px; background-color: #ccc;">
+<img src="/images/port01.png" style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" alt="Superior Tribunal Federal" >
+<p class="title"><a href="https://github.com/marcofaga/bert_bens_candidatos_tse" target="_blank" rel="noopener noreferrer"><b>Categorização de Bens de Candidatos com Deep Learning (2006–2022)</b></a></p>
+<span class="tag">Python</span>
+<span class="tag">R</span>
+<span class="tag">BERT</span>
+<span class="tag">Transformer</span>
+<p class="short">Projeto de categorização automatizada da base de bens de candidatos(as) nas eleições brasileiras (2006–2022), utilizando NLP e redes neurais para padronizar mais de 4 milhões de registros do TSE. Com fine-tuning do modelo BERTimbau, alcançou 99,3% de acurácia em validação manual.</p>
+
+<hr style="border: none; height: 1px; background-color: #ccc;">
+
+<img src="/images/port03.png" style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" alt="Mapas Eleitorais" >
+<p class="title"><a href="https://gv-cepesp.github.io/mapaseleitorais2023/" target="_blank" rel="noopener noreferrer"><b>Mapas Eleitorais com R — Coda.Br 2023</b></a></p>
+<span class="tag">R</span>
+<span class="tag">GIS</span>
+<span class="tag">sf</span>
+<p class="short">Workshop ministrado no Coda.Br 2023 com foco na análise e visualização de dados eleitorais georreferenciados utilizando R. Os participantes aprenderam a manipular dados espaciais com os pacotes tidyverse e sf, associando resultados eleitorais a territórios intramunicipais e produzindo mapas temáticos para explorar padrões de votação e geografia política. Material e aulas elaborados em parceria com os pesquisadores Lucas Gelape e João Victor Guedes-Neto.</p>
+
+<hr style="border: none; height: 1px; background-color: #ccc;">
+
+<img src="/images/port04.png" style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" alt="WebScrap" >
+<p class="title"><a href="https://github.com/marcofaga/scrap_eleicoes_seade" target="_blank" rel="noopener noreferrer"><b>Extração de Dados Históricos das Eleições Municipais Paulistas (1982–1996)</b></a></p>
+<span class="tag">Python</span>
+<span class="tag">Scrapy</span>
+<span class="tag">WebScrap</span>
+<p class="short">Coleta automatizada de dados eleitorais das eleições municipais de São Paulo (1982–1996) a partir do site da Fundação SEADE, utilizando Scrapy em Python. Os dados extraídos foram organizados em arquivos estruturados para prefeito e vereador, com inclusão de códigos IBGE e TSE e dicionário de variáveis para facilitar a análise.</p>
+
+<hr style="border: none; height: 1px; background-color: #ccc;">
+
+<img src="/images/port02.png" style="border-radius: 10px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);" alt="R" >
+<p class="title"><a href="https://github.com/marcofaga/aula_dados_eleitorais_no_R" target="_blank" rel="noopener noreferrer"><b>Captação e Análise de Dados Eleitorais com R</b></a></p>
+<span class="tag">R</span>
+<p class="short">Aula prática de introdução ao R aplicada à análise de dados eleitorais, com foco na eleição presidencial de 2014. Os alunos aprenderam a importar, tratar, visualizar e cruzar dados do TSE com indicadores socioeconômicos, aplicando filtros, agregações e análise estatística.</p>
+
+
+
 
