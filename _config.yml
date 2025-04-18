@@ -352,17 +352,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-defaults:
-  # padrão para site em português
-  - scope:
-      path: ""
-    values:
-      navigation: default
-
-  # aplica menu inglês para páginas dentro de /en/
-  - scope:
-      path: "en"
-    values:
-      navigation: en
