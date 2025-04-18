@@ -1,0 +1,28 @@
+main:
+
+  #- title: "Talks"
+  #  url: /talks/    
+
+  #- title: "Teaching"
+  #  url: /teaching/    
+    
+  - title: "Portfolio"
+    url: /en/portfolio/
+
+  - title: "Publications"
+    url: /en/publications/
+        
+  #- title: "Blog Posts"
+  #  url: /year-archive/
+    
+  - title: "CV"
+    url: /files/cv_updated_en.pdf
+
+  - title: "Portuguese"
+    url: /
+    
+  # - title: "CV"
+  #   url: /cv-json/
+    
+  #- title: "Guide"
+  #  url: /markdown/
